@@ -1,37 +1,24 @@
 ---
 title: "Solidity"
-metaTitle: "This is the title tag of this page"
-metaDescription: "This is the meta description"
+metaTitle: "Introduction to Solidity"
+metaDescription: "Learn Blockchain Solidity and make Dapps"
 ---
 
-Some introduction text. Lists out all the headings from h1 to h6. Markdown link handling for relative and absolute URLs. Easy to customise.
 
-# Heading H1
-Heading 1 text
 
-## Heading H2
-Heading 2 text
+Solidity is an object-oriented programming language created specifically by the Ethereum Network team for constructing and designing smart contracts on Blockchain platforms.
 
-### Heading H3
-Heading 3 text
+- It's used to create smart contracts that implement business logic and generate a chain of transaction     records in the blockchain system.
+- It acts as a tool for creating machine-level code and compiling it on the Ethereum Virtual Machine (EVM).
+- It has a lot of similarities with C and C++ and is pretty simple to learn and understand. For example, a “main” in C is equivalent to a “contract” in Solidity.
 
-#### Heading H4
-Heading 4 text
+---
 
-##### Heading H5
-Heading 5 text
 
-###### Heading H6
-Heading 6 text
 
-## Lists
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+Like other programming languages, Solidity programming also has variables, functions, classes, arithmetic operations, string manipulation, and many other concepts.
 
-<!-- ## Links -->
+---
 
-<!-- * Relative: [Codeblock](/codeblock)
-* Absolute: [Demo](https://learn.hasura.io/graphql/react) -->
+![](https://www.simplilearn.com/ice9/free_resources_article_thumb/Solidity_Programming_1.png)
+

@@ -1,26 +1,42 @@
 ---
-title: "Syntax Highlighting"
-metaTitle: "Syntax Highlighting is the meta title tag for this page"
-metaDescription: "This is the meta description for this page"
+title: "Version Pragma"
+metaTitle: "Pragmas are directives to the compiler about how to handle the code"
+metaDescription: "Pragmas are directives to the compiler about how to handle the code"
 ---
 
-The following is a code block with JavaScript language syntax highlighting.
+The following is a code block with Solidity language syntax highlighting defining the pragma statement.
 
-```javascript
-import React from 'react';
+## Pragma
+
+Pragma is a keyword used in Solidity for defining the version which is used to compile Solidity. 
+- Pragmas are directives to the compiler about how to handle the code. 
+- Every line of solidity source code should begin with a "version pragma," which specifies which version of the solidity compiler to use.
+- This prevents the code from being incompatible with future compiler versions that may introduce changes.
+
+---
+
+There are two ways of defining the pragma version.
+
+
+- ### Specify Exact Version
+```solidity
+pragma solidity^0.8.0;
 ```
 
-Supports multiple languages.
+The above statement means that 0.8.0 version of Solidity will be used.
 
-The following is a code block with diff. Lines with `+` highlighted in green shade indicating an addition. Lines with `-` highlighted in red shade indicating a deletion.
+- ### Specify Range Of Versions
 
-```javascript
-- const data = ['1','2'];
-+ const data = [1,2];
+```solidity
+pragma solidity >=0.7.0;
 ```
+The above statement means all versions from 0.7.0 and above will be included.
 
-## Live Editing example
 
-```javascript react-live=true
-<button className={'btn btn-default'}>Change my text</button>
+```solidity
+pragma solidity >=0.6.0 <0.7.0;
 ```
+The above statement means all versions greater than 0.6.0 will be included apart from 0.7.0 version. This means that the code will run on 0.6.0, 0.8.0 and above.
+
+
+
