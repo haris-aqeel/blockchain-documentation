@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: "Solidity"
 metaTitle: "This is the title tag of this page"
 metaDescription: "This is the meta description"
 ---
@@ -31,7 +31,7 @@ Heading 6 text
 - Item 4
 - Item 5
 
-## Links
+<!-- ## Links -->
 
-* Relative: [Codeblock](/codeblock)
-* Absolute: [Demo](https://learn.hasura.io/graphql/react)
+<!-- * Relative: [Codeblock](/codeblock)
+* Absolute: [Demo](https://learn.hasura.io/graphql/react) -->
